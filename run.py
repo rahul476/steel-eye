@@ -1,6 +1,6 @@
 """File with lambda excution funtion"""
 
-import helper
+import helpers.utility_helper as helper
 
 DOWNLOAD_LINK = "https://www.iso20022.org/sites/default/files/ISO10383_MIC/ISO10383_MIC.xls"
 LAMBDA_URL = "https://8kar3zzax7.execute-api.ap-south-1.amazonaws.com/prod/upload"
