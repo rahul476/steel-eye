@@ -1,4 +1,4 @@
-## steel-eye
+## Steel-Eye
 
 Python project to download a xls file and process it to a json file and then upload the json file to s3.
 
