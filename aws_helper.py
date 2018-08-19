@@ -1,4 +1,4 @@
-"""Amazon Helper"""
+"""AWS Helper"""
 
 import os
 import json
