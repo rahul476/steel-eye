@@ -13,7 +13,7 @@ pip install -r requirements.txt
 Entry point for the program is run.py which downloads the xls file and process it to create a json file (containing the list of dictionaries) and call the api deployed in lambda (check lambda setup). Run the below command to start
 
 ```
-python 
+python run.py
 ```
 
 ### Lambda setup
