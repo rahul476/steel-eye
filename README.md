@@ -10,7 +10,10 @@ Download the external library boto3 and xlrd. Run the below command
 pip install -r requirements.txt
 ```
 
-Entry point for the program is run.py which downloads the xls file and process it to create a json file (containing the list of dictionaries) and call the api deployed in lambda (check lambda setup). Run the below command to start
+Entry point for the program is run.py which downloads the xls file and process it to create a json file (containing the list of dictionaries) and call the api deployed in lambda (check lambda setup). 
+
+Update the [[APIGATEWAYLAMBDAURL]] with the actual Url to trigger upload to s3 function.
+Run the below command to start
 
 ```
 python run.py
